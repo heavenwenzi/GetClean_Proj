@@ -6,30 +6,6 @@
 #5. From the data set in step 4, creates a second, independent tidy data set with the average 
 #   of each variable for each activity and each subject.
 
-
-
-# Not needed
-#
-# body_acc_x_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt')
-# body_acc_y_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt')
-# body_acc_z_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt')
-# body_gyro_x_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt')
-# body_gyro_y_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt')
-# body_gyro_z_train <- read.table('UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt')
-# total_acc_x_train <- read.table('UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt')
-# total_acc_y_train <- read.table('UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt')
-# total_acc_z_train <- read.table('UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt')
-# 
-# body_acc_x_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt')
-# body_acc_y_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt')
-# body_acc_z_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt')
-# body_gyro_x_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt')
-# body_gyro_y_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt')
-# body_gyro_z_test <- read.table('UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt')
-# total_acc_x_test <- read.table('UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt')
-# total_acc_y_test <- read.table('UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt')
-# total_acc_z_test <- read.table('UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt')
-
 library(reshape2)
 library(dplyr)
 
