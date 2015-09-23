@@ -1,4 +1,4 @@
-"subjectID" "ActivityID" "variable" "mean"
+"subjectID" "ActivityID" "features" "mean"
 1 "WALKING" "tBodyAcc-mean()-X" 0.277330758736842
 1 "WALKING" "tBodyAcc-mean()-Y" -0.0173838185273684
 1 "WALKING" "tBodyAcc-mean()-Z" -0.111148103547368

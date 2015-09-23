@@ -45,4 +45,5 @@ summaryData <- summarise(grouped, mean=mean(value))
 summaryData$ActivityID <- unlist(lapply(summaryData$ActivityID, 
                                         function (x) {activity_labels$V2[grep(x,activity_labels$V1)]}))
 
+## write data frame into a txt file
 write.table(summaryData, file = "summaryData.txt", row.name=FALSE)

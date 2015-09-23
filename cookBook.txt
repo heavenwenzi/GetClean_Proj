@@ -1,0 +1,21 @@
+		DATA DICTIONARY - UCI HAR Dataset
+
+SubjectID		
+	Subject ID for who performed the activity. 
+		1 .. 30
+	
+ActivityID
+	Names of the activies
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+	
+features
+	List of all features that associated with the mean / standard deviation 
+	
+mean
+	Takes mean of each features for each activities
+		-1 .. 1
