@@ -40,6 +40,7 @@ colnames(df) <- c('subjectID', 'ActivityID', as.character(features$V2[idx]))
 dfMelt <- melt(df, id=colnames(df)[1:2], measure.vars = colnames(df)[3:length(colnames(df))])
 grouped <- group_by(dfMelt,subjectID, ActivityID, variable)
 summaryData <- summarise(grouped, mean=mean(value))
+colnames(summaryData) <- c('subjectID', 'ActivityID', 'features', 'mean')
 
 ## make activity ID descriptive
 summaryData$ActivityID <- unlist(lapply(summaryData$ActivityID, 
